@@ -17,7 +17,13 @@ public class RandomStuff {
 
     	System.out.println(y);
 
-    }
+
+		System.out.println((int)(Math.random()*12-3));
+		System.out.println(rand.nextInt(12)-3);
+
+		//range 13 - 27
+		System.out.println((int)(Math.random()*15+13));
+    }	
 
 
 }
